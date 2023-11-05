@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>今日どうする？</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      /* font-family: Arial, sans-serif; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* 中央揃えに変更 */
+      align-items: center;
+      background-color: #f7f7f7;
+    }
+    #wordDisplay {
+      font-size: 2em;
+      margin-top: 20px; /* 上の余白を設定 */
+    }
+    #rollButton {
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    </style>
+</head>
+
+<body>
+  <button id="rollButton" type="button" class="btn btn-outline-danger">残業する？</button>
+
+  <div id="wordDisplay"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
